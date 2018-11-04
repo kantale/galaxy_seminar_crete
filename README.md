@@ -1,5 +1,9 @@
 # Useful files
 
+## Galaxy server at IMBB (**temporary**)
+* http://139.91.75.205 
+
+
 ## FastQ files:
 
 ```text
@@ -42,5 +46,16 @@ https://www.dropbox.com/s/yi4zb0r2mx639hl/SnpEff_vcf.vcf?dl=1
 ```text
 https://zenodo.org/record/60520/files/GIAB-Ashkenazim-Trio.txt?download=1
 ```
+
+## Gemini queries
+
+```
+SELECT count(*) FROM variants WHERE in_dbsnp == 0
+```
+
+```
+SELECT rs_ids, aaf_esp_ea, impact, clinvar_disease_name, clinvar_sig FROM variants WHERE filter is NULL and gene = 'POLRMT'
+```
+
 
 
