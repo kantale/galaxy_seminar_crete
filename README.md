@@ -17,10 +17,24 @@ https://www.dropbox.com/s/6219aba532fxtjw/file1.bam?dl=1
 https://www.dropbox.com/s/f7zs4uu0j26znjg/file2.bam?dl=1
 ```
 
-## Variant calling result (output of FreeBayes):
+## BAM file
 
-```text
-https://www.dropbox.com/s/ziq15z5dqfeo1yx/freebayes_results.vcf?dl=1
+```
+https://zenodo.org/record/60520/files/GIAB-Ashkenazim-Trio-hg19.gz?download=1
+```
+
+## Variant Calling result
+
+```
+https://www.dropbox.com/s/412m4z57ezr9oqd/freebayes_result.vcf?dl=1
+```
+
+## SnpEff annotation result
+
+```
+https://www.dropbox.com/s/0uh3s9rznv0lolb/SnpEff_html.zip?dl=1
+https://www.dropbox.com/s/oowvo7n4gob470w/SnpEff_html.html?dl=1
+https://www.dropbox.com/s/yi4zb0r2mx639hl/SnpEff_vcf.vcf?dl=1
 ```
 
 ## Trio information file
