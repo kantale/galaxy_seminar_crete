@@ -49,13 +49,23 @@ https://zenodo.org/record/60520/files/GIAB-Ashkenazim-Trio.txt?download=1
 
 ## Gemini queries
 
+### How maby "novel" variants that are not annotated in dbSNP database?
+
+
 ```
 SELECT count(*) FROM variants WHERE in_dbsnp == 0
 ```
+
+### How many variants within the POLRMT gene?
+
 
 ```
 SELECT rs_ids, aaf_esp_ea, impact, clinvar_disease_name, clinvar_sig FROM variants WHERE filter is NULL and gene = 'POLRMT'
 ```
 
+### At how many sites does child have a non-reference allele?
 
+```
+SELECT * from variants gt_types.HG002_NA24385_son <> HOM_REF 
+```
 
